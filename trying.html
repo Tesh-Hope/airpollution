@@ -14,10 +14,7 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
 
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="trying.css" />
 
@@ -50,7 +47,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="home.html">Home </a>
+              <a class="nav-link" href="#top">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://ducic.ac.in/">
@@ -58,15 +55,15 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#footer">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about/about.html">About</a>
+              <a class="nav-link" href="#aboutus">About</a>
             </li>
           </ul>
 
           <!-- search button -->
-         <!--  <form class="form-inline my-2 my-lg-0">
+          <!-- <form class="form-inline my-2 my-lg-0">
             <input
               class="form-control mr-sm-2"
               type="text"
@@ -74,8 +71,8 @@
             />
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">
               Search
-            </button> -->
-          </form>
+            </button>
+          </form> -->
         </div>
       </nav>
     </section>
@@ -145,16 +142,17 @@
         </a>
       </div>
     </section>
-    <hr />
+    
 
     <!------------- QUICK FACTS  ------------->
 
     <section id="facts" >
       <div class="container-fluid padding ">
-        <h1 class="display-4 text-center">Quick facts about Air Pollution</h1>
+        <h1 class="display-4 text-center h">Quick facts about air pollution</h1>
 
-        <div class="row padding ">
-          <div class="col-lg-6 text">
+        <div class="row padding offset-1">
+          
+          <div class="col-lg-5 text ">
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -169,10 +167,10 @@
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
             <a href="" class="btn btn-outline-secondary">Know more</a>
           </div>
-
-          <div class="col-lg-6 ">
+        
+          <div class="col-lg-6 text-center ">
             <img
-              src="Images/quick quick facts-min.jpg" class="img-fluid"
+              src="Images/quick facts-min.jpg" class="img-fluid"
               alt="quick facts"
             />
             <p>pic credit:<a href="http://www.freepik.com">Designed by jcomp / Freepik</a></p>
@@ -180,16 +178,16 @@
         </div>
       </div>
     </section>
-    <hr />
+    
 
     <!---------------- WHO WE ARE --------------->
     <section id="aboutus">
-      <div class="container-fluid padding">
+      <div class="container padding">
         <div class="row text-center about">
           <div class="col-12">
-            <h1 class="display-4">WHO WE ARE</h1>
+            <h1 class="display-4 title">WHO WE ARE</h1>
           </div>
-          <hr />
+          
           <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="Images/utkarsh.jpeg" />
             <div class="aboutinfo">
@@ -212,26 +210,30 @@
             </div>
           </div>
         </div>
-        <hr />
+
+
+        
       </div>
     </section>
 
     <!--------------------footer ------------------->
     <section id="footer">
       <footer>
-        <div class="container-fluid padding">
-          <div class="row text-center">
-            <div class="col-md-6">
+        <div class="container padding">
+          <div class="row">
+            <div class="col-md-6 footer-box text-center">
               <img src="Images/logo.png">
-              <hr class="light">
-              <p>Cluster Innovation Centre,</p>
-              <p>University of Delhi</p>
-              <p>GC Narang Road, Delhi, 110007</p>
+              
+              <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
             </div>
 
-            <div class="col-md-6">
-              <a href="mailto:567898765a@gmail.com">mail us</a>
+            <div class="col-md-6 text-center contact-box">
+              <p><b>CONTACT US</b></p>
+
+              <P><i class="fa fa-map-marker"></i>Cluster Innovation Center,<br>University of Delhi</P>
+              <p>GC Narang road, 110007</p>
+              <a href="mailto:567898765a@gmail.com"><i class="fa fa-envelope-o"></i>DROP AN ELECTRONIC MAIL.</a>
             </div>
 
           </div>
@@ -240,5 +242,13 @@
         </div>
       </footer>
     </section>
+<!--------------Smooth Scroll ---------------->
+
+<script src="smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
   </body>
 </html>
