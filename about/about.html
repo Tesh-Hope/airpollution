@@ -1,106 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-		<!-- Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-			crossorigin="anonymous"
-		/>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
 
-		<link rel="stylesheet" type="text/css" href="about.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-		<title>Awareness about air pollution in Delhi</title>
-	</head>
-	<body>
-		<!-- <header><h1>Awareness about air pollution in Delhi</h1></header> -->
+    <link rel="stylesheet" type="text/css" href="about.css" />
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-			<a class="navbar-brand" href="../home.html"
-				>ABOUT US. AwareAboutAir</a
-			>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarColor01"
-				aria-controls="navbarColor01"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-			<div class="collapse navbar-collapse" id="navbarColor01">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="../home.html"
-							>Home <span class="sr-only">(current)</span></a
-						>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://ducic.ac.in/"
-							>Cluster Innovation centre</a
-						>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../contact/contact.html"
-							>Contact us</a
-						>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input
-						class="form-control mr-sm-2"
-						type="text"
-						placeholder="Search"
-					/>
-					<button
-						class="btn btn-secondary my-2 my-sm-0"
-						type="submit"
-					>
-						Search
-					</button>
-				</form>
-			</div>
-		</nav>
+    <title>Awareness about air pollution in Delhi</title>
+  </head>
+  <body>
+    <!-- <header><h1>Awareness about air pollution in Delhi</h1></header> -->
 
-		<main></main>
+    <!-------------- navigation bar ---------------->
 
-		<footer>
-			<p>
-				©Cluster Innovation Centre, University of Delhi. All rights
-				reversed.
-			</p>
-		</footer>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-md navbar-dark bg-danger ">
+        <a class="navbar-brand " href="home.html"><img src="../Images/logo.png" alt="logo"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-			crossorigin="anonymous"
-		></script>
-	</body>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../home.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://ducic.ac.in/">
+                Cluster Innovation centre
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About</a>
+            </li>
+          </ul>
+
+          <!-- search button -->
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </nav>
+    </section>
+
+<!----------------About-us-------------->
+<section id="about-us" class="container-fluid">
+  <div class="container padding">
+        <div class="row text-center about">
+          <div class="col-12">
+            <h1 class="display-4 title">WHO WE ARE</h1>
+          </div>
+
+          <div class="col-12">
+            <p>We are a group of students from Cluster Innovation Centre, University of Delhi working on awaring people about air pollution and in the meanwhile trying to have a closer look at tangible and intangible losses as our semester long project work.</p>
+          </div>
+
+          
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Saleem Mir</h4>
+              <p>Mentor</p>
+              <a href="#" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Alur kom</h4>
+              <p>Co-Mentor</p>
+              <a href="#" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src=""  />
+            <div class="aboutinfo">
+              <h4>Amritesh Raj</h4>
+              <a href="#" class="btn btn-outline-secondary">view profile</a>
+            </div >
+            
+          </div>
+
+        </div>
+         <div class="row text-center about">
+          
+          
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Dwaipayan mukherjee</h4>
+              <a href="" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Gurjeet kaur</h4>
+              <a href="" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src="Images/gur.jpeg"  />
+            <div class="aboutinfo">
+              <h4>Nikhil Bhardawaj</h4>
+              <a href="#" class="btn btn-outline-secondary">view profile</a>
+            </div >
+            
+          </div>
+
+        </div>
+         <div class="row text-center about">
+          
+          
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Ojasva Singh</h4>
+              <a href="" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="" />
+            <div class="aboutinfo">
+              <h4>Rachit </h4>
+              <a href="#" class="btn btn-outline-secondary">view profile</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src=""  />
+            <div class="aboutinfo">
+              <h4>Utkarsh Bharat</h4>
+              <a href="" class="btn btn-outline-secondary">view profile</a>
+            </div >
+            
+          </div>
+
+        </div>
+
+        
+      </div>
+
+</section>
+
+
+    <!--------------------footer ------------------->
+    <section id="footer">
+      <footer>
+        <div class="container padding">
+          <div class="row">
+            <div class="col-md-6 footer-box text-center">
+              <img src="../Images/logo.png">
+              
+              <p> We are a group of students from Cluster Innovation Centre, University of Delhi working on awaring people about air pollution and in the meanwhile trying to have a closer look at tangible and intangible losses as our semester long project work.</p>
+
+            </div>
+
+            <div class="col-md-6 text-center contact-box">
+              <p><b>CONTACT US</b></p>
+
+              <P><i class="fa fa-map-marker"></i>Cluster Innovation Center,<br>University of Delhi</P>
+              <p>GC Narang road, 110007</p>
+              <a href="mailto:567898765a@gmail.com"><i class="fa fa-envelope-o"></i>DROP AN ELECTRONIC MAIL.</a>
+            </div>
+
+          </div>
+          <hr class="col-12 light-100">
+          <p class="text-center">&copy; Cluster Innovation Center, University of Delhi</p>
+        </div>
+      </footer>
+    </section>
+<!--------------Smooth Scroll ---------------->
+
+<script src="smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+  </body>
 </html>
