@@ -238,7 +238,10 @@ hr.light-100{
 }
 }
 @media (max-width: 576px) {
-	
+	.intervention-video {
+		width: 300px;
+		height: 300px;
+	}
 }
 
 

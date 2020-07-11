@@ -1,3 +1,5 @@
+
+/*bootstrap and index.css are combined in the styles.pure.css through purifycss*/
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8,4 +10,11 @@
 
  .collapse:not(.show) {
   display: none;
+}
+
+@media (max-width: 576px) {
+	.intervention-video {
+		width: 300px;
+		height: 300px;
+	}
 }
