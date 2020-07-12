@@ -10,6 +10,7 @@ html, body{
 	width: 100%;
 	font-family: 'poppins', sans-serif;
 	color: #222;
+	overflow-x: hidden;
 }
 
 /*-------------navbar------------*/
@@ -240,7 +241,7 @@ hr.light-100{
 
 	}
 
-
+ 
 }
 
 

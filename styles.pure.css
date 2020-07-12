@@ -18,10 +18,31 @@ html, body{
   display: none;
 }
 
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding-left: 0px;
+}
+
+#facts .btn {
+    
+    margin-bottom: 30px;
+}
+
 @media (max-width: 576px) {
 	.intervention-video {
 		width: 300px;
 		height: 300px;
+	}
+
+ .interventionvid-caption{
+ 	margin-right: 35px;
+ }
+}
+
+@media (max-width: 768px){
+		#facts .btn{
+		margin-top: -15px;
 	}
 
 }
